@@ -6,7 +6,7 @@ menu:
     weight: 40
 ---
 <section class="profile-heading">
-  <img src="/nelson.jpeg" alt="Portrait de HERITIER JUNIOR">
+  <img src="/mon-portfolio/nelson.jpeg" alt="Portrait de HERITIER JUNIOR">
   <div>
     <p class="section-label">QUI SUIS-JE ?</p>
     <h1>À propos</h1>

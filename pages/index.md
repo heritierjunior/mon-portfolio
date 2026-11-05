@@ -35,7 +35,7 @@ description: Portfolio de HERITIER JUNIOR, étudiant en L3 IAGE — IGAF 2026.
   </div>
   <a class="project-card" href="/projets/">
     <div class="project-visual">
-      <img class="project-portrait" src="/nelson.jpeg" alt="Portrait de HERITIER JUNIOR">
+      <img class="project-portrait" src="/mon-portfolio/nelson.jpeg" alt="Portrait de HERITIER JUNIOR">
       <span class="project-visual-label">PROJET PERSONNEL</span>
       <span class="project-visual-number">2026</span>
     </div>
