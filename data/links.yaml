@@ -1,0 +1,11 @@
+# Liens de navigation affichés dans le pied de page.
+- name: Accueil
+  url: /
+- name: Parcours
+  url: /parcours/
+- name: Projets
+  url: /projets/
+- name: Carnet de bord
+  url: /blog/
+- name: À propos
+  url: /about/

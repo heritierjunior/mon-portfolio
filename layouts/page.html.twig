@@ -1,0 +1,33 @@
+{% extends '_default/page.html.twig' %}
+
+{#- adds the site stylesheet, compiled from Sass ~#}
+{%- block head_css ~%}
+    {{- parent() ~}}
+    {{ css(asset('css/style.scss')) }}
+{%- endblock head_css ~%}
+
+{#- adds the links of the `data/links.yaml` data file ~#}
+{%- block footer ~%}
+    <div class="site-footer">
+      <div class="footer-brand">
+        <a class="footer-name" href="/">HERITIER JUNIOR<span>.</span></a>
+        <p>Étudiant en L3 IAGE — IGAF 2026</p>
+      </div>
+      <nav class="footer-navigation" aria-label="Navigation de pied de page">
+        <p class="footer-label">EXPLORER</p>
+        <ul>
+          {%- for link in site.data.links ~%}
+          <li><a href="{{ link.url }}">{{ link.name|e }}</a></li>
+          {%- endfor ~%}
+        </ul>
+      </nav>
+      <div class="footer-note">
+        <p>Un parcours qui se construit, projet après projet.</p>
+        <a href="#main">Retour en haut <span aria-hidden="true">↑</span></a>
+      </div>
+      <div class="footer-bottom">
+        <small>© {{ 'now'|date('Y') }} HERITIER JUNIOR</small>
+        <small>Portfolio académique</small>
+      </div>
+    </div>
+{%- endblock footer ~%}
